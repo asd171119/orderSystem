@@ -1,0 +1,31 @@
+
+html,body
+{
+	height: 100%;
+}
+
+.bg
+{
+	height: 100%;
+	background-color: var(--theme-color);
+}
+
+.icon
+{
+	height: 38vh;
+}
+
+.result-area
+{
+	height: 24vh;
+}
+
+.result
+{
+	background-color: #ffffffa8;
+}
+
+.msg
+{
+	white-space: pre-line;
+}

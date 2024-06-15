@@ -1,0 +1,47 @@
+
+.tilte
+{
+    font-size: 1.6vw;
+    font-weight: lighter;
+}
+
+.btn-row
+{
+    border: 0.3vw solid var(--theme-color);
+    border-radius: 0.7vw;
+}
+
+.btn-row > .func-btn
+{
+    width: 25%;
+    border-right: 0.4vw solid var(--theme-color);
+    text-align: center;
+}
+
+.btn-row > .func-btn-2
+{
+    width: 50%;
+    border-right: 0.4vw solid var(--theme-color);
+    text-align: center;
+}
+
+.btn-selected
+{
+    background-color: var(--theme-color);
+    color: #fff;
+    font-weight: bold;
+}
+
+.last-btn
+{
+    border-right: none !important;
+}
+
+.content-wrap
+{
+    /* background-color: var(--theme-color); */
+    height: 78vh;
+    border-radius: 1vw;
+    border: 0.3vw solid var(--theme-color);
+    overflow-x: hidden;
+}

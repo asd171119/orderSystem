@@ -1,0 +1,60 @@
+/* table manger */
+.insert-btn
+{
+	float: right;
+}
+
+.th-label
+{
+	background-color: var(--theme-color);
+	color: rgb(255, 255, 255);
+	border-radius: 8vw;
+}
+
+/* table manger edit */
+.title
+{
+	text-align: center;
+	border-bottom: 0.2vw solid #0000002e;
+	font-weight: bold;
+}
+
+.edit-table-card
+{
+	background-color: #fff;
+	border-radius: 1vw;
+	height: fit-content;
+	padding-bottom: 29vh;
+}
+
+.edit-table-bg
+{
+	background-color: var(--theme-color);
+	height: -webkit-fill-available;
+}
+
+/* table */
+.table-card
+{
+	background-color: var(--theme-color);
+	border-radius: 0.5vw;
+}
+
+.reserve-card
+{
+	background-color: var(--red);
+	border-radius: 0.5vw;
+}
+
+.table-card-title
+{
+	background-color: #fff;
+	font-weight: bold;
+	border-radius: 5vw;
+}
+
+.table-card-font
+{
+	color: #fff;
+	font-weight: bold;
+}

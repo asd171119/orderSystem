@@ -1,0 +1,8 @@
+{
+    "editor.stickyTabStops": false,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": true,
+    "json.indent": "4",
+    "html.format.indentInnerHtml": false,
+    "markdown.extension.tableFormatter.normalizeIndentation": false
+}

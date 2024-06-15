@@ -1,0 +1,13 @@
+.modal-warning
+{
+	background-color: red;
+	color: #fff;
+	font-weight: bold;
+}
+
+.modal-normal
+{
+	background-color: var(--theme-color);
+	color: #fff;
+	font-weight: bold
+}

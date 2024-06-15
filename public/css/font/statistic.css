@@ -1,0 +1,25 @@
+.bar
+{
+	background-color: var(--theme-gray);
+	border-radius: 5vw;
+}
+
+.statistic
+{
+	background-color: var(--theme-color);
+	height: 100%;
+	border-radius: 5vw;
+	border: 0.4vw solid var(--theme-gray);
+	text-align: center;
+}
+
+.statistic.none
+{
+	background-color: var(--theme-gray);
+	width: 5% !important;
+}
+
+.border-b
+{
+	border-bottom: 0.1vw solid;
+}

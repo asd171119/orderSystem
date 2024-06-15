@@ -1,0 +1,110 @@
+html,body
+{
+	height: 100%;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+footer
+{
+	background-color: var(--theme-color);
+}
+
+img
+{
+	width: 90%;
+	border-radius: 4vw;
+}
+
+.header
+{
+	background-color: var(--theme-color);
+	height: 9vh;
+	border-radius: 0 0 2vw 2vw;
+}
+
+.index-btn
+{
+	background-color: var(--theme-color);
+	border-radius: 2vw;
+	aspect-ratio: 1/1;
+}
+
+.lg-btn
+{
+	aspect-ratio: 1/0.4;
+}
+
+.slider-wrapper
+{
+	width: 90%;
+	height: 31vh;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slides
+{
+	width: 100%;
+	position: absolute;
+	transition: transform .4s ease-in-out;
+}
+
+.slides img
+{
+	width: 100%;
+	object-fit: cover;
+	border-radius: .3rem;
+}
+
+.slider-btns
+{
+	position: absolute;
+	top: 38%;
+	z-index: 2;
+	width: 83vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.slider-btns span
+{
+	padding: 1rem 1.2rem;
+	font-size: 1.5rem;
+	color: var(--theme-color);
+	cursor: pointer;
+}
+
+.dots
+{
+	position: absolute;
+	width: 100%;
+	top: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
+	z-index: 1;
+}
+
+.dots .dot
+{
+	width: 3vw;
+	aspect-ratio: 1/1;
+	background-color: var(--secondary);
+	opacity: .2;
+	border-radius: 50%;
+	transition: opacity .2s ease-in-out;
+	cursor: pointer;
+}
+
+.now-dot
+{
+	background-color: var(--theme-color) !important;
+	opacity: 1 !important;
+}

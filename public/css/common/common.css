@@ -1,0 +1,82 @@
+:root
+{
+	--theme-color:#ffa03c;
+	--theme-gray:#cecbce;
+}
+
+.btn
+{
+	background-color: var(--theme-color);
+	padding: 0.8vh 0.5vw;
+	width: fit-content;
+	border-radius: 0.5vw;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	height: fit-content;
+}
+
+.danger-btn
+{
+	background-color: red;
+	padding: 0.8vh 0.5vw;
+	width: fit-content;
+	border-radius: 0.5vw;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	height: fit-content;
+}
+
+.secondary-btn
+{
+	background-color: #6c757d;
+	padding: 0.8vh 0.5vw;
+	width: fit-content;
+	border-radius: 0.5vw;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	height: fit-content;
+}
+
+.hidden
+{
+	display: none !important;
+}
+
+.back-btn
+{
+	position: fixed;
+	top: 3vh;
+	left: 4vw;
+	z-index: 1;
+}
+
+hr
+{
+	width: 100%;
+	border-top-color: #000000;
+}
+
+html
+{
+	font-family: Microsoft JhengHei !important;
+}
+
+th, td
+{
+	text-align: center !important;
+}
+
+a
+{
+	color:var(--theme-color) !important;
+}
+
+input
+{
+	padding: 0 0.5vw;
+	border: 1px solid #c1c1c1;
+	border-radius: 0.4vw;
+}

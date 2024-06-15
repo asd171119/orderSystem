@@ -1,0 +1,39 @@
+.table-card
+{
+	background-color: var(--theme-color);
+	border-radius: 0.5vw;
+}
+
+.reserve-card
+{
+	background-color: var(--red);
+	border-radius: 0.5vw;
+}
+
+.table-card-title
+{
+	background-color: #fff;
+	font-weight: bold;
+	border-radius: 5vw;
+	height: fit-content;
+}
+
+.table-card-font
+{
+	color: #fff;
+	font-weight: bold;
+}
+
+.order-title
+{
+	color: #000;
+	font-weight: bold;
+	height: fit-content;
+	background-color: #fff;
+	border-radius: 2vw;
+}
+
+.order-detail
+{
+	border-bottom: 0.1vw solid;
+}
